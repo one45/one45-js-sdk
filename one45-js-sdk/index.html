@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>one45 SDK example</title>
+    <script type="text/javascript" src="./dist/one45-sdk.js">
+    </script>
+    <script>
+      "use strict"
+        
+        var One45 = new One45();
+        
+          var institution = One45.initialize('http://one45.dev/web/one45_dev.php',
+                          'me1mvuyud9cgcwss0koc80sk40cw0kgcwo0wg4co44w0cog0g');
+
+          institution.then((res) => {console.log(res)});
+          function ClickMe()
+          {
+           
+          }
+    </script>
+  </head>
+  <body>
+    Testing !!!
+    <button onclick='ClickMe();'>Try it Now</button>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "name": "one45-sdk-js",
+  "version": "1.0.0",
+  "description": "Javascript library developed to help developing web applications for one45",
+  "main": "index.js",
+  "author": "Scott Hsieh",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browser-sync": "^2.9.6",
+    "browserify": "^11.1.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^5.2.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.4.1",
+    "gulp-util": "^2.2.14",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1",
+    "karma": "^0.13.9",
+    "karma-browserify": "^4.2.1",
+    "karma-chai-plugins": "^0.6.0",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-mocha": "^0.2.0",
+    "karma-mocha-reporter": "^1.0.2",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "lodash": "^3.10.1",
+    "merge-stream": "^0.1.8",
+    "mocha": "^2.2.5",
+    "phantomjs": "^1.9.18",
+    "sinon": "^1.15.4",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.4.0"
+  }
+}
